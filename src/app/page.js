@@ -399,7 +399,7 @@ export default function Home() {
               <div className="skills-progress">
                 {[
                   { name: "JavaScript", level: 60 },
-                  { name: "React", level: 70 },
+                  { name: "React/Next.js", level: 70 },
                   { name: "Unity/C#", level: 85 },
                   { name: "Flutter", level: 70 },
                   { name: "PHP/MySQL", level: 60 }
