@@ -268,7 +268,7 @@ export default function Home() {
             }}
           >
             <Image
-              src="/profile2.png"
+              src="/Profile4.jpg"
               alt="Abdul Sami"
               width={300}
               height={300}
