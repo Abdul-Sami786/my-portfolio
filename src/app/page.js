@@ -374,7 +374,7 @@ export default function Home() {
                   { name: "Web Development", icon: "💻" },
                   { name: "Unity 3D", icon: "🎮" },
                   { name: "Mobile Apps", icon: "📱" },
-                  { name: "UI/UX", icon: "🎨" }
+                  { name: "Responsive Design", icon: "🎨" }
                 ].map((skill, index) => (
                   <motion.div 
                     key={index}
