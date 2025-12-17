@@ -398,11 +398,12 @@ export default function Home() {
               <h3 className="subsection-title">My Skills</h3>
               <div className="skills-progress">
                 {[
-                  { name: "JavaScript", level: 60 },
-                  { name: "React/Next.js", level: 70 },
-                  { name: "Unity/C#", level: 85 },
-                  { name: "Flutter", level: 70 },
-                  { name: "PHP/MySQL", level: 60 }
+                  { name: "Unity/Flutter", level: 60 },
+                  { name: "Tailwind", level: 70 },
+                  { name: "React/Next.js", level: 80 },
+                  { name: "JavaScript", level: 80 },
+                  { name: "Express.js", level: 70 },
+                  { name: "MySQL", level: 60 }
                 ].map((skill, index) => (
                   <div className="skill-item" key={index}>
                     <div className="skill-info">
