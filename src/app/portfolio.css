@@ -651,14 +651,14 @@ body {
 }
 
 .profile-image-container {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
 
 .floating-image-wrapper {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;

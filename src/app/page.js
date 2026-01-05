@@ -268,7 +268,7 @@ export default function Home() {
             }}
           >
             <Image
-              src="/Profile4.jpg"
+              src="/profile5.jpeg"
               alt="Abdul Sami"
               width={300}
               height={300}
@@ -400,7 +400,7 @@ export default function Home() {
                 {[
                   { name: "Unity/Flutter", level: 60 },
                   { name: "Tailwind", level: 70 },
-                  { name: "React/Next.js", level: 80 },
+                  { name: "React/Next", level: 80 },
                   { name: "JavaScript", level: 80 },
                   { name: "Express.js", level: 70 },
                   { name: "MySQL", level: 60 }
@@ -520,6 +520,18 @@ export default function Home() {
                 title: "FPP Survival Game",
                 desc: "Immersive first-person survival game with crafting and exploration mechanics.",
                 tags: ["Unity", "3D Modeling", "C#"]
+              },
+              {
+                icon: "🛡️",
+                title: "Autonomous Reliability System",
+                desc: "Reliability analytics dashboard providing real-time system metrics, alerts, and automated health checks.",
+                tags: ["React", "Python", "JWT", "APIs", "RBAC"]
+              },
+              {
+                icon: "📝",
+                title: "Advanced MERN Todo App",
+                desc: "Full-stack task management app with authentication, dark mode, and performance optimization.",
+                tags: ["MERN", "JWT", "Tailwind", "Vercel", "Railway"]
               }
             ].map((project, index) => (
               <motion.div 
