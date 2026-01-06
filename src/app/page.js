@@ -296,9 +296,10 @@ export default function Home() {
             options={{
               strings: [
                 "Software Engineer",
-                "Web Developer",
-                "Unity Developer",
-                "Tech Enthusiast"
+                "Front End Developer",
+                "Unity Lover",
+                "Tech Enthusiast",
+                "Team Player"
               ],
               autoStart: true,
               loop: true,
@@ -493,8 +494,8 @@ export default function Home() {
               },
               {
                 icon: "💊",
-                title: "VR Pharmacy App",
-                desc: "VR app for pharmacy education using Unity 3D with interactive drug simulations.",
+                title: "VR Doctor-Patient Interaction",
+                desc: "VR app for doctor education using Unity 3D with interactive environment.",
                 tags: ["Unity", "C#", "VR"]
               },
               {
