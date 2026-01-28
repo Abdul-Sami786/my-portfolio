@@ -317,7 +317,7 @@ export default function Home() {
           transition={{ delay: 0.8, duration: 0.5 }}
         >
           <motion.a
-            href="/resume.pdf"
+            href="/Abdul Sami Resume.pdf"
             download
             className="primary-button"
             whileHover={{ scale: 1.05 }}
@@ -374,7 +374,7 @@ export default function Home() {
                 {[
                   { name: "Web Development", icon: "💻" },
                   { name: "Unity 3D", icon: "🎮" },
-                  { name: "Mobile Apps", icon: "📱" },
+                  { name: "Web Apps", icon: "📱" },
                   { name: "Responsive Design", icon: "🎨" }
                 ].map((skill, index) => (
                   <motion.div 
@@ -399,12 +399,11 @@ export default function Home() {
               <h3 className="subsection-title">My Skills</h3>
               <div className="skills-progress">
                 {[
-                  { name: "Unity/Flutter", level: 60 },
-                  { name: "Tailwind", level: 70 },
-                  { name: "React/Next", level: 80 },
-                  { name: "JavaScript", level: 80 },
-                  { name: "Express.js", level: 70 },
-                  { name: "MySQL", level: 60 }
+                  { name: "Unity", level: 60 },
+                  { name: "Tailwind", level: 50 },
+                  { name: "React", level: 40 },
+                  { name: "JavaScript", level: 50 },
+                  { name: "MongoDB", level: 60 }
                 ].map((skill, index) => (
                   <div className="skill-item" key={index}>
                     <div className="skill-info">
@@ -499,28 +498,10 @@ export default function Home() {
                 tags: ["Unity", "C#", "VR"]
               },
               {
-                icon: "🛍️",
-                title: "SK Fashions",
-                desc: "E-commerce store for clothing & shoes built with modern web technologies.",
-                tags: ["HTML", "JavaScript", "Bootstrap"]
-              },
-              {
                 icon: "🏥",
                 title: "Hospital Management System",
                 desc: "Comprehensive management system for patient, doctor, and appointment tracking.",
                 tags: ["PHP", "MySQL", "Full-stack"]
-              },
-              {
-                icon: "🧴",
-                title: "Skin Disease Detector",
-                desc: "Mobile app using machine learning to detect various skin conditions.",
-                tags: ["Flutter", "Firebase", "ML"]
-              },
-              {
-                icon: "🧟",
-                title: "FPP Survival Game",
-                desc: "Immersive first-person survival game with crafting and exploration mechanics.",
-                tags: ["Unity", "3D Modeling", "C#"]
               },
               {
                 icon: "🛡️",
